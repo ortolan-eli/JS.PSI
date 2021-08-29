@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+   
+    <head>
+        <title>Calculadora IMC</title>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="titulo container">
+                <h4>Cálculo IMC</h4>
+                <p>O IMC (Índice de Massa Corporal) é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade.
+                    É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).</p>
+                <p><b>IMC = Peso / (Altura x Altura)</b></p>
+            </div>
+            <div id="img-banner">
+                <img src="img/imc2.png">
+            </div>
+        </header>
+        <!-- Início Calculadora -->
+        <div class="formimc container row">
+                <h6>CALCULADORA IMC 1.0</h5>
+            <form>
+                <div class="boxform">  
+                    <div class="">
+                        <small id="pes">Peso em kg Ex: 80</small>
+                        <input type="number" class="boxform-1" name="" id="num1" placeholder="Digite seu peso">
+                    </div>
+                    <div>
+                        <small id="alt">Altura em cm Ex: 180</small>
+                        <input type="number" class="boxform-1" name="" id="num2" placeholder="Digite sua Altura">
+                    </div>
+                    <div>
+                        <small class="">Resultado</small>    
+                        <input type="number" readonly=“true” class="boxform-1" id="res">
+                    </div>
+                    <div>
+                        <input id="botao-1" type="button" value="Calcular" onclick="imc()">
+                        <input id="botao-1" type="reset" value="Limpar">
+                    </div>
+                </div> 
+            </form> 
+            <div id="info_peso"></div>
+        </div>
+        <!-- Fim Calculadora -->
+        <footer>
+            <div class="row container center">
+                <div id="footer-1" class="col s12">
+                    <a href="https://github.com/ortolan-eli"><img id="git" src="img/github.png"></a>
+                    <a href=""><img id="linkd" src="img/linkedin.png"></a>
+                </div>
+                <div id="footer-2" class="col s12">
+                    <p>© Eliézer Ortolan, 2021.</p>
+                </div>
+            </div>
+        </footer>
+    <!-- Biblioteca Materialize JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="js/interact.js"></script>
+    </body>
+
+</html>

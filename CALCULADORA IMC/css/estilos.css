@@ -1,0 +1,121 @@
+body {
+    background-color: darkviolet;
+}
+
+.container {
+    margin-bottom: 0px!important;
+}
+
+header { 
+    text-align: center;
+    color: white;
+}
+
+.titulo {
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+}
+
+h4 {
+    font-style: oblique;
+    font-weight: bold!important;
+}
+
+#img-banner {
+    margin-bottom: 50px;
+}
+
+.formimc {
+    padding-top: 9,3%;
+    padding-bottom: 5%;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+h6 {
+    text-align: center;
+    padding: 15px;
+    background-color: #5c1374;
+    color: white;
+    font-weight: bold!important;
+}
+
+.boxform {
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #5c1374, #3d1365);
+    color: white;
+}
+
+.box-form1 {
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+small {
+    text-align: left;
+    color: white;
+}
+
+#botao-1{
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: orange;
+    font-size:larger;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao-1:hover{
+    background-color:rgb(82, 218, 82);
+}
+
+#botao-1:active{
+    background-color: orange;
+    color: white;
+}
+
+#info_peso{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+input[type=number]:focus {
+    border-bottom: 1px solid orange!important;
+}
+
+footer { 
+    background-color: orange;
+    padding: 1px;
+}
+
+#footer-1 img{
+    margin-top: 35px;
+    width: 30px;
+    position: relative;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#git {
+    background-image:image('img/github.png');
+    width: 30px;
+}
+
+#footer-2 {
+    margin-top: -15px;
+}
+
+#footer-1 img:hover{
+    opacity: 1.0;
+}
