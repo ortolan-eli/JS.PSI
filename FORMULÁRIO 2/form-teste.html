@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <!--Ícones Google Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Formulário de Login</title>
+</head>
+
+<body class="color-bd">
+    <div class="container">
+        <header>
+            <div class="center top-st">
+                <h5>Controle de Login</h5>
+            </div>
+        </header>
+        <div class="subt-st center">
+            <h6>Registro de Usuário</h6>
+        </div>
+        <div class="center msg-erro" id="info"></div>
+        <div class="row form-st">
+            <form class="form" name="form">
+                <div>
+                    <div class="col s12">
+                        <label>
+                            <spam>E-mail *</spam>
+                            <input id="nEmail">
+                        </label>
+                    </div>
+                    <div class="col s6">
+                        <label>
+                            <spam>Senha *</spam>
+                            <input id="nSenha">
+                        </label>
+                    </div>
+                    <div class="col s6">
+                        <label>
+                            <spam>Confirmar Senha *</spam>
+                            <input id="nConfSenha">
+                        </label>
+                    </div>
+                    <div class="col s12">
+                        <label>
+                            <spam>Endereço *</spam>
+                            <input id="nEnd">
+                        </label>
+                    </div>
+                    <div class="col s12">
+                        <label>
+                            <spam>Complemento</spam>
+                            <input id="nComp">
+                        </label>
+                    </div>
+                    <div class="col s8">
+                        <label>
+                            <spam>Cidade *</spam>
+                            <input id="nCid">
+                        </label>
+                    </div>
+                    <div  class="col s6">
+                        <label>
+                            <spam>Estado *</spam>
+                            <select id="nEst" class="browser-default">
+                                <option value="" disabled selected>Escolher...</option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="col s6">
+                        <label>
+                            <spam>CEP *</spam>
+                            <input id="nCep">
+                        </label>
+                    </div>
+                </div>
+                <div class="ativar-check col s12">
+                    <label>
+                        <input type="checkbox" class="filled-in" checked="checked"/>
+                        <span>Ativo</span>
+                    </label>
+                </div>  
+                <div class="down-st col s12">
+                    <hr color="#80cbc4">
+                    <input type="button" title="Sing in" value="Sing In" class="butt-st" onclick="validar()">
+                    <input type="button" title="Limpar" value="Limpar" class="butt-st" onclick="clean()">
+                </div> 
+            </form>
+            <div class="center col s12">
+                <p>Campos com <font color="red">*</font> são obrigatórios.</p>
+            </div>
+        </div>          
+    </div>
+
+    <!--JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/interact.js"></script>
+</body>
+
+</html>
